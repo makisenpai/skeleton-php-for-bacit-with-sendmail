@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    font-size: 100%;
+    font-family: "Open Sans Condensed";
+}
+
+html{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(background.jpg)
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Style the Box */
+.Box{
+    background-color: white;
+    font-size: 1.5em;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-right: 100px;
+    width: 900;
+    max-width: 900;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 10px 25px gray;
+}
+.login_box{
+    background-color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 10px 25px gray;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+/*.InnerBox{
+    background-color: white;
+    font-size: 20px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    padding: 15px;   
+}
+*/
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: pink;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px gray;
+  }
+  
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+    background-color: lightpink;
+    color: white;
+ }
+table{
+    box-shadow: 0 2px 5px gray;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+th, td{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.overflow{
+    overflow: auto;
+}
